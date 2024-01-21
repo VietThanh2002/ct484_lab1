@@ -18,6 +18,7 @@ class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
       return Scaffold(
         appBar: AppBar(
           title: const Text('MyShop'),
+          backgroundColor: Colors.purple,
           actions: <Widget>[
             buildProductFilterMenu(),
             buildShoppingCartIcon(),
